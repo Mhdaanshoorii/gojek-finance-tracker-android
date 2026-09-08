@@ -74,7 +74,7 @@ jobs:
           android.useAndroidX=true
           EOF
 
-          cat > app/build.gradle <<'EOF'
+                    cat > app/build.gradle <<'EOF'
           plugins {
               id 'com.android.application'
           }
@@ -90,6 +90,7 @@ jobs:
                   versionCode 25
                   versionName '25.0'
               }
+          }
           EOF
           
 
