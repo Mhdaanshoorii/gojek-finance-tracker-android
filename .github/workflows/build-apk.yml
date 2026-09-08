@@ -40,7 +40,7 @@ jobs:
           mkdir -p app/src/main/assets
 
           curl -L https://raw.githubusercontent.com/Mhdaanshoorii/gojek-finance-tracker/main/index.html -o index.html
-cp index.html app/src/main/assets/index.htmll
+cp index.html app/src/main/assets/index.html
 
           cat > settings.gradle <<'EOF'
           pluginManagement {
