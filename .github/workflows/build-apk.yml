@@ -36,11 +36,11 @@ jobs:
       - name: Download app
         run: |
           mkdir -p app/src/main/assets
-mkdir -p app/src/main/java/com/gojek/finance
-mkdir -p app/src/main/res/values
-mkdir -p app/src/main/res/drawable
-cp .github/workflows/icon.png app/src/main/res/drawable/icon.png
-curl -L "https://raw.githubusercontent.com/Mhdaanshoorii/gojek-finance-tracker/main/index.html" -o app/src/main/assets/index.html
+          mkdir -p app/src/main/java/com/gojek/finance
+          mkdir -p app/src/main/res/values
+          mkdir -p app/src/main/res/drawable
+          cp .github/workflows/icon.png app/src/main/res/drawable/icon.png
+          curl -L "https://raw.githubusercontent.com/Mhdaanshoorii/gojek-finance-tracker/main/index.html" -o app/src/main/assets/index.html
       - name: Create Gradle files
         run: |
           cat > settings.gradle <<'EOF'
