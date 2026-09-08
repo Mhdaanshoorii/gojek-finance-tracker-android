@@ -108,16 +108,16 @@ jobs:
           </resources>
           EOF
 
-          cat > app/src/main/AndroidManifest.xml <<'EOF'
+                    cat > app/src/main/AndroidManifest.xml <<'EOF'
           <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
               <uses-permission android:name="android.permission.INTERNET"/>
 
               <application
-    android:theme="@style/AppTheme"
-    android:label="Gojek Finance Tracker"
-    android:allowBackup="true"
-    android:icon="@drawable/icon">
+                  android:theme="@style/AppTheme"
+                  android:label="Gojek Finance Tracker"
+                  android:allowBackup="true"
+                  android:icon="@drawable/icon">
 
                   <activity
                       android:name=".MainActivity"
@@ -132,6 +132,7 @@ jobs:
                   </activity>
 
               </application>
+
           </manifest>
           EOF
 
