@@ -86,7 +86,7 @@ jobs:
               defaultConfig {
                   applicationId 'com.gojek.finance'
                   minSdk 23
-                  targetSdk 35
+                  targetSdk 34
                   versionCode 25
                   versionName '25.0'
               }
